@@ -25,11 +25,9 @@ const UserLandingPage = () =>{
    
         },1000)
 
-    },[tasks])
+    },[tasks,dispatch])
 
-    useEffect(()=>{
-        console.log("dispatch rerender")
-    },[dispatch])
+
 
 
     const handleMarkComplete = (index) =>{

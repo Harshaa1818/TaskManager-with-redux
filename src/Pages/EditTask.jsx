@@ -27,11 +27,9 @@ const EditTask = () =>{
         newTask.description = description;
         newTask.status = status;
         newTask.priority = priority;
-        dispatch(deletetask(index))
         dispatch(addtask(newTask))
+        dispatch(deletetask(index))
         navigate('/userlandingpage')
-
-
     }
     
     return(
